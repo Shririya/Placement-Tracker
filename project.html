@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Projects</title>
+    <link rel="stylesheet" href="project.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>Project Tracker</h1>
+
+        <div class="add">
+
+            <input type="text"
+                   id="projectName"
+                   placeholder="Project Name">
+
+            <select id="status">
+                <option>Planned</option>
+                <option>In Progress</option>
+                <option>Completed</option>
+            </select>
+
+            <button id="add-btn" onclick="addProject()">
+                Add
+            </button>
+
+        </div>
+
+        <ul id="projectList"></ul>
+
+    </div>
+
+    <script src="project.js"></script>
+
+</body>
+</html>

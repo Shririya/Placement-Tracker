@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Coding status</title>
+        <link rel="stylesheet" href="coding.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Coding Tracker</h1>
+            <div class="add">
+                <input type="text" id="problem" placeholder="Problem Name">
+                <select id="difficulty">
+                    <option>Easy</option>
+                    <option>Medium</option>
+                    <option>Hard</option>
+                </select>
+                <button id="add-btn" onclick="addproblem()">Add</button>
+            </div>
+            <div class="problem-list">
+                <ul id="problemList"></ul>
+            </div>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>

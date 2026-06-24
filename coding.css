@@ -1,0 +1,119 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Georgia, Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background:#f4f7fc;
+    min-height:100vh;
+}
+
+.container{
+    width:800px;
+    margin:50px auto;
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.08);
+}
+
+.container h1{
+    text-align:center;
+    margin-bottom:30px;
+    color:#2d3748;
+}
+
+.add{
+    display:flex;
+    gap:15px;
+    margin-bottom:20px;
+}
+
+input{
+    flex:1;
+    padding:15px;
+    border:none;
+    border-radius:12px;
+    background:#f5f7fb;
+    font-size:16px;
+    outline:none;
+    transition:0.3s;
+}
+
+input:focus{
+    box-shadow:0 0 0 3px rgba(66,153,225,0.25);
+}
+
+select{
+    padding:15px;
+    border:none;
+    border-radius:12px;
+    background:#f5f7fb;
+    cursor:pointer;
+    font-size:15px;
+    outline:none;
+    transition:0.3s;
+}
+
+select:focus{
+    box-shadow:0 0 0 3px rgba(66,153,225,0.25);
+}
+
+#add-btn{
+    padding:15px 25px;
+    border:none;
+    border-radius:12px;
+    background:#38b2ac;
+    color:white;
+    font-weight:600;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+#add-btn:hover{
+    transform:translateY(-2px);
+}
+
+#add-btn:active{
+    transform:scale(0.97);
+}
+
+#problemList{
+    margin-top:20px;
+    padding:0;
+}
+
+#problemList li{
+    list-style:none;
+    background:white;
+    margin:12px 0;
+    padding:16px 20px;
+    border-radius:12px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.08);
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    transition:0.3s;
+}
+
+#problemList li:hover{
+    transform:translateY(-2px);
+}
+
+#problemList button{
+    background:#e53e3e;
+    color:white;
+    border:none;
+    padding:8px 15px;
+    border-radius:8px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+#problemList button:hover{
+    background:#c53030;
+}

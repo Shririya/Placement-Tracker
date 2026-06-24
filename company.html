@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Company Tracker</title>
+    <link rel="stylesheet" href="company.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>Company Tracker</h1>
+
+        <div class="add">
+
+            <input type="text"
+                   id="companyName"
+                   placeholder="Company Name">
+
+            <input type="text"
+                   id="role"
+                   placeholder="Role">
+
+            <select id="status">
+                <option>Wishlist</option>
+                <option>Applied</option>
+                <option>Test Cleared</option>
+                <option>Interview Scheduled</option>
+                <option>Selected</option>
+                <option>Rejected</option>
+            </select>
+
+            <button onclick="addCompany()">
+                Add
+            </button>
+
+        </div>
+
+        <ul id="companyList"></ul>
+
+    </div>
+
+    <script src="company.js"></script>
+
+</body>
+</html>
